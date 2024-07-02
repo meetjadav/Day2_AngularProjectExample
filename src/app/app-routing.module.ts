@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserComponent } from './MyComponent/user/user.component';
 import { AboutComponent } from './MyComponent/about/about.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  { path: '', component: UserComponent },
+  { path: '', component: RegisterComponent },
   { path: 'about', component: AboutComponent },
 ];
 
